@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            direction: rtl;
+        }
+        .container {
+            text-align: center;
+            color: #fff;
+            animation: fadeIn 3s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        .hearts {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 2em;
+            color: #ff69b4;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        /* تأثير الورود المتساقطة */
+        .flower {
+            position: fixed;
+            top: -20px;
+            animation: fall 10s infinite linear;
+        }
+        @keyframes fall {
+            0% { transform: translateY(0) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>عيد ميلاد سعيد يا أميرتي ❤️</h1>
+        <p>لقد كتبت هذا الموقع لأقول لك:</p>
+        <p style="font-size: 2em; font-weight: bold;">"Happy birthday my girl! I'm with you forever (إن شاء الله)"</p>
+        <p style="margin-top: 30px;">كل عام وأنتِ الأجمل في قلبي 🌸</p>
+    </div>
+
+    <!-- ورود متساقطة -->
+    <div class="flower" style="left: 10%;">🌹</div>
+    <div class="flower" style="left: 30%;">🌷</div>
+    <div class="flower" style="left: 50%;">🌸</div>
+    <div class="flower" style="left: 70%;">💐</div>
+    <div class="flower" style="left: 90%;">🌺</div>
+</body>
+</html>
